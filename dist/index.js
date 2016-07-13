@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.disable = exports.composeAll = exports.composeWithMobx = exports.composeWithObservable = exports.composeWithPromise = exports.composeWithTracker = exports.compose = exports.useDeps = exports.createApp = undefined;
+exports.setDefaultLoadingComponent = exports.setDefaultErrorComponent = exports.disable = exports.composeAll = exports.composeWithMobx = exports.composeWithObservable = exports.composeWithPromise = exports.composeWithTracker = exports.compose = exports.useDeps = exports.createApp = undefined;
 
 var _reactSimpleDi = require('react-simple-di');
 
@@ -35,3 +35,5 @@ var composeWithObservable = exports.composeWithObservable = _reactKomposer.compo
 var composeWithMobx = exports.composeWithMobx = _reactKomposer.composeWithMobx;
 var composeAll = exports.composeAll = _reactKomposer.composeAll;
 var disable = exports.disable = _reactKomposer.disable;
+var setDefaultErrorComponent = exports.setDefaultErrorComponent = _reactKomposer.setDefaultErrorComponent;
+var setDefaultLoadingComponent = exports.setDefaultLoadingComponent = _reactKomposer.setDefaultLoadingComponent;
